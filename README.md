@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Voice Marks
 
-## Getting Started
+Record interviews, podcasts, and panel conversations with **real-time captions** in the
+browser. While you record, tap **Mark moment** to flag something important; after you stop,
+jump straight back to any marked moment or caption line and hear it again.
 
-First, run the development server:
+## Why
+The recurring friction with recorded conversations is finding the good part again —
+re-listening to minutes of audio to locate one answer. Voice Marks makes the key moments
+addressable during recording, and turns the transcript into a navigation map.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## How
+- **Record** via your microphone (MediaRecorder API) — no upload, all local.
+- **Live captions** as you speak (Web Speech API; Chrome/Edge). Captions are time-stamped.
+- **Mark moment** inserts a timestamped flag with the phrase you just heard.
+- **Seek** by tapping any marker or caption line — playback jumps to that exact second.
+- **Copy** the clean transcript or the marked-moments list for show notes / recap.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Pure client-side. No backend, no accounts, no data leaves the device.
