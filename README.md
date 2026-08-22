@@ -1,19 +1,19 @@
 # Voice Marks
 
-Record interviews, podcasts, and panel conversations with **real-time captions** in the
-browser. While you record, tap **Mark moment** to flag something important; after you stop,
-jump straight back to any marked moment or caption line and hear it again.
+Record conversations in the browser **or paste any transcript**, mark the strong moments,
+and turn raw voice capture into a reusable output pack.
+
+## What it does
+- **Record locally** with your microphone (MediaRecorder API)
+- **Live captions** while you speak (Web Speech API in Chrome/Edge)
+- **Mark moment** during recording so the important parts are easy to find again
+- **Paste transcript** if the audio was captured elsewhere
+- Generate a **summary**, **action list**, **follow-up draft**, **CRM note**, and **highlight pack**
+- **Copy** each output block in one click
 
 ## Why
-The recurring friction with recorded conversations is finding the good part again —
-re-listening to minutes of audio to locate one answer. Voice Marks makes the key moments
-addressable during recording, and turns the transcript into a navigation map.
+The recurring friction is not just transcription. It is what happens after:
+raw voice notes and recorded conversations have to be turned into usable follow-ups,
+recaps, and next steps. Voice Marks now compresses that broader workflow.
 
-## How
-- **Record** via your microphone (MediaRecorder API) — no upload, all local.
-- **Live captions** as you speak (Web Speech API; Chrome/Edge). Captions are time-stamped.
-- **Mark moment** inserts a timestamped flag with the phrase you just heard.
-- **Seek** by tapping any marker or caption line — playback jumps to that exact second.
-- **Copy** the clean transcript or the marked-moments list for show notes / recap.
-
-Pure client-side. No backend, no accounts, no data leaves the device.
+Pure client-side. No backend. No accounts. Audio stays on the device.

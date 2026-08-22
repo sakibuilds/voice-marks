@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Voice Marks — Smart Recorder",
+  title: "Voice Marks — Capture to Output Pack",
   description:
-    "Record live conversations, interviews, podcasts, and panels with real-time captions. Tap to mark key moments and jump straight back to them.",
+    "Record live conversations or paste a transcript, mark key moments, and turn raw voice capture into a reusable summary, action list, follow-up draft, and CRM note.",
 };
 
 export default function RootLayout({
